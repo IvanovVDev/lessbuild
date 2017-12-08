@@ -1,0 +1,28 @@
+{
+  "name": "rg-less-builder",
+  "version": "1.0.0",
+  "description": "Compiles all less files in given directory to css recursively. Resulting CSS file will be placed in the same folder with the same name.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanovVDev/lessbuild.git"
+  },
+  "keywords": [
+    "less"
+  ],
+  "author": "Ivanov Vitaliy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanovVDev/lessbuild/issues"
+  },
+  "homepage": "https://github.com/IvanovVDev/lessbuild#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "less": "^2.7.3",
+    "loglevel": "^1.6.0",
+    "path": "^0.12.7"
+  }
+}
